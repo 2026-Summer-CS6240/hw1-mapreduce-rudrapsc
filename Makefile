@@ -2,6 +2,7 @@
 
 # Customize these paths for your environment.
 # -----------------------------------------------------------
+spark.root=/usr/local/spark-3.3.2-bin-without-hadoop
 hadoop.root=/usr/local/hadoop-3.3.5
 jar.name=mr-demo-1.0.jar
 jar.path=target/${jar.name}
@@ -15,8 +16,8 @@ hdfs.output=output
 # AWS EMR Execution
 aws.emr.release=emr-6.10.0
 aws.region=us-east-1
-aws.bucket.name=cs6240-demo-bucket
-aws.subnet.id=subnet-6356553a
+aws.bucket.name=rudra-psc-hw1-cs6240
+aws.subnet.id=subnet-0694425cd36a75680
 aws.input=input
 aws.output=output
 aws.log.dir=log
